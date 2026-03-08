@@ -17,6 +17,7 @@ rules/
 ├── typescript/      # TypeScript/JavaScript specific
 ├── python/          # Python specific
 ├── golang/          # Go specific
+├── ruby/            # Ruby specific
 └── swift/           # Swift specific
 ```
 
@@ -32,6 +33,7 @@ rules/
 ./install.sh typescript
 ./install.sh python
 ./install.sh golang
+./install.sh ruby
 ./install.sh swift
 
 # Install multiple languages at once
@@ -54,6 +56,7 @@ cp -r rules/common ~/.claude/rules/common
 cp -r rules/typescript ~/.claude/rules/typescript
 cp -r rules/python ~/.claude/rules/python
 cp -r rules/golang ~/.claude/rules/golang
+cp -r rules/ruby ~/.claude/rules/ruby
 cp -r rules/swift ~/.claude/rules/swift
 
 # Attention ! ! ! Configure according to your actual project requirements; the configuration here is for reference only.
