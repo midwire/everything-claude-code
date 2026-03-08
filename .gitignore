@@ -40,3 +40,4 @@ examples/sessions/*.tmp
 
 # Local drafts
 marketing/
+/.claude/settings.local.json
