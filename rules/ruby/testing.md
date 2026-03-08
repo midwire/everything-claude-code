@@ -69,3 +69,8 @@ Use built-in RSpec mocks:
 allow(service).to receive(:call).and_return(result)
 expect(notifier).to have_received(:notify).with(user)
 ```
+
+## Reference
+
+See skill: `ruby-testing` for detailed RSpec patterns, shared examples, and VCR usage.
+See skill: `rails-tdd` for Rails-specific testing with request specs and Capybara.

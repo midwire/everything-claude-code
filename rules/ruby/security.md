@@ -36,3 +36,7 @@ port = ENV.fetch("PORT", 3000)
 - Avoid `eval`, `instance_eval`, `class_eval` with user input
 - Avoid `send`/`public_send` with user-controlled method names
 - Use `Shellwords.shellescape` when passing user input to shell commands
+
+## Reference
+
+See skill: `rails-security` for Rails-specific security guidelines (if applicable).

@@ -89,3 +89,7 @@ adults = users.select { |u| u.age >= 18 }
 total = orders.sum(&:amount)
 grouped = items.group_by(&:category)
 ```
+
+## Reference
+
+See skill: `ruby-patterns` for comprehensive patterns including metaprogramming, concurrency, and gem authoring.

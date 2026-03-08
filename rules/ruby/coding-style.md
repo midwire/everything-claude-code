@@ -43,3 +43,7 @@ VALID_STATUSES = %w[active inactive archived].freeze
   ```bash
   rubocop --autocorrect
   ```
+
+## Reference
+
+See skill: `ruby-patterns` for comprehensive Ruby idioms and patterns.
